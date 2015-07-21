@@ -2,10 +2,10 @@ get '/' do
   erb :welcome
 end
 
-get '/login' do
-  
+get '/ajax_practice' do
+  erb :login, layout: false
 end
 
-get '/signup' do
-  
+post '/login' do
+
 end
